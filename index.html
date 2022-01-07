@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Porfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <input type="radio" name="radio" id="open" />
+    <input type="radio" name="radio" id="close" checked />
+    <!-- nav -->
+    <nav>
+      <div class="left-side">
+        <a href=""><h1>Lita YSDF</h1></a>
+      </div>
+      <div class="right-side">
+        <div class="nav-link-wrapper"><a href="#home" class="page-scroll">Home</a></div>
+        <div class="nav-link-wrapper"><a href="#about" class="page-scroll">About Me</a></div>
+        <div class="nav-link-wrapper"><a href="#gallery" class="page-scroll">Gallery</a></div>
+        <div class="nav-link-wrapper"><a href="#favorite" class="page-scroll">Favorite</a></div>
+        <div class="nav-link-wrapper"><a href="#contact" class="page-scroll">Contact</a></div>
+      </div>
+      <label for="open" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <label for="close" class="cross">
+        <span></span>
+        <span></span>
+      </label>
+    </nav>
+    <!-- akhir nav -->
+
+    <!-- home -->
+    <div class="container-home" id="home">
+      <img src="img/lita.jpg" alt="Lita yusdia fatimah" />
+      <h1>Lita Yusdia Fatimah</h1>
+      <p>Mahasiswi Teknik Informatika UNPAS</p>
+    </div>
+    <!-- akhir home -->
+
+    <!-- about -->
+    <div class="container-about" id="about">
+      <h1>About Me</h1>
+      <hr class="split" />
+      <div class="text">
+        <p>
+          Hallo semua kenalin nama aku Lita Yusdia Fatimah, bisa panggil aja Lita. Aku lahir di Sumedang pada tanggal 02 Juni tahun 2003. Aku merupakan anak ke-3 dari 4 bersaudara. Hobbi aku adalah nonton film, membaca dan mendengarkan
+          musik.
+        </p>
+        <p>
+          Saya merupakan Mahasiswi Baru atau orang pada bilang MABA hehe:) di Universitas Pasundan Bandung tahun angkatan 2021 program studi Teknik Informatika, yang kampusnya berada di Jl. Dr. Setiabudi No.193, Gegerkalong, Kec. Sukasari,
+          Kota Bandung, Jawa Barat 40153.
+        </p>
+      </div>
+    </div>
+    <!-- akhir about -->
+
+    <!-- gallery -->
+    <div class="container-gallery" id="gallery">
+      <h1>My Gallery</h1>
+      <hr class="split" />
+      <div class="cards">
+        <a href="">
+          <div class="card">
+            <img src="img/1.jpg" alt="" />
+          </div>
+        </a>
+        <a href="">
+          <div class="card">
+            <img src="img/2.jpg" alt="" />
+          </div>
+        </a>
+        <a href="">
+          <div class="card">
+            <img src="img/3.jpg" alt="" />
+          </div>
+        </a>
+        <a href="">
+          <div class="card">
+            <img src="img/4.jpg" alt="" />
+          </div>
+        </a>
+        <a href="">
+          <div class="card">
+            <img src="img/5.jpg" alt="" />
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- akhir gallery -->
+
+    <!-- favorite -->
+    <div class="container-favorite" id="favorite">
+      <h1>My Favorite</h1>
+      <hr class="split" />
+      <div class="cards">
+        <a href="">
+          <div class="card">
+            <img src="img/bakso.jpg" alt="" />
+            <p>salah satu makanan favorite saya adalah bakso</p>
+          </div>
+        </a>
+        <a href="">
+          <div class="card">
+            <img src="img/JUICE.jpg" alt="" />
+            <p>minuman favorite saya adalah jus mangga</p>
+          </div>
+        </a>
+        <a href="">
+          <div class="card">
+            <img src="img/sepeda.jpg" alt="" />
+            <p>olahraga favorite saya adalah bersepeda</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- akhir favorite -->
+
+    <!-- contact -->
+    <div class="container-contact" id="contact">
+      <h1>Contact Me</h1>
+      <hr class="split" />
+      <form action="" method="post">
+        <label for="">Nama Lengkap</label>
+        <input type="text" placeholder="Lita yusdia fatimah" />
+
+        <label for="">Email</label>
+        <input type="email" placeholder="example@gmail.com" />
+
+        <label for="">Pesan</label>
+        <textarea cols="80" rows="8" placeholder="Ketikan Pesan"></textarea>
+        <button type="submit">Kirim</button>
+      </form>
+    </div>
+    <!-- akhir contact -->
+
+    <!-- footer -->
+    <footer>
+      <p>Coppyright 2021 | Lita yusdia Fatimah</p>
+    </footer>
+    <!-- akhir footer -->
+  </body>
+</html>
